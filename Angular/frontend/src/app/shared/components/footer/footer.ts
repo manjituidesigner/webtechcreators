@@ -79,7 +79,6 @@ export class FooterComponent implements OnInit {
   ngOnInit() {
     this.siteSettingsService.getSettings().subscribe({
       next: (settings) => {
-        console.log('Received Site Settings:', settings);
         this.settings = settings;
         this.cdr.detectChanges(); // Force update
       },
