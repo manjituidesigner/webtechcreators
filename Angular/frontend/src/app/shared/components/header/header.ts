@@ -23,12 +23,12 @@ import { SiteSettingsService, SiteSettings } from '../../../core/services/site-s
                <li><a routerLink="/" fragment="">Home</a></li>
                <li><a routerLink="/" fragment="about">About</a></li>
                <li><a routerLink="/" fragment="prot">Work</a></li>
-               <li>
-                  <a routerLink="/services">Services</a>
-                  <ul class="sub-menu">
-                     <li><a routerLink="/services">Service</a></li>
-                  </ul>
-               </li>
+                 <li>
+                    <a routerLink="/" fragment="services" class="text-uppercase">Services</a>
+                    <ul class="sub-menu">
+                       <li><a routerLink="/service">All Services</a></li>
+                    </ul>
+                 </li>
                <li><a routerLink="/contact">Contact</a></li>
             </ul>
             <div class="menu__components d-flex align-items-center">
